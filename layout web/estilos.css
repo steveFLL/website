@@ -1,0 +1,337 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background: #EFEFEF;
+}
+
+.wrap{
+	width: 1100px;
+	margin: auto;
+	
+}
+
+header{
+	width: 100%;
+	float: left;
+	box-shadow: 1px 0 5px rgba(0,0,0,.3);
+	background: #fff;
+
+
+}
+
+header .logo{
+	float: left;
+	padding: 20px 0;
+}
+header .logo{
+	font-size: 40px;
+	font-style: italic;
+	color: #49CFA2;
+}
+
+
+header .menu{
+	float: right;
+	padding: 40px 0;
+
+}
+header .menu a{
+	display: inline-block;
+	margin-left: 15px;
+	text-decoration: none;
+	font-size: 22px;
+	color: #49C9CF;
+
+	position: relative;
+}
+
+header .menu a::after{
+	content: "";
+	display:block;
+
+	position: absolute;
+	bottom: -4px;
+
+	width: 0%;
+	height: 2px;
+	background: #49CF94;
+
+	transition: .3s;
+}
+
+header .menu a:hover::after{
+	width: 100%;
+}
+
+
+/*BANNER========*/
+.banner{
+	background: linear-gradient(130deg,#499ECF,#55D186);
+	clear: both;
+	margin-bottom: 50px;
+}
+
+.banner .wrap{
+	padding: 250px 0;
+}
+
+
+.banner .wrap article{
+	text-align: center;
+	color: #fff;
+}
+
+.banner .wrap article h2{
+	font-size: 60px;
+}
+
+.banner .wrap article p{
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+
+/*CONTENIDO PRINCIPAL===*/
+.main{
+	float: left;
+	margin-bottom: 150px;
+}
+
+.main .new-content{
+	float: left;
+	width: 70%;
+	background: #fff;
+	padding: 30px 20px;
+}
+
+.main .new-content article{
+	float: left;
+}
+
+.main .new-content article img{
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.main .new-content article h3{
+	margin-bottom: 5px;
+	font-size: 30px;
+	font-weight: 500px;
+	color: #8A1F14;
+}
+
+
+.main .new-content article p,
+.main aside p{
+	text-align: justify;
+	font-weight: 500;
+	font-size: 15px;
+	color: #3c3c3c;
+}
+
+
+
+/*ASIDE========*/
+.main aside{
+	float: right;
+	width: 70%;
+	background: #fff;
+	padding: 20px 30px 30px;
+}
+
+.main aside .widget{
+	margin-bottom: 20px;
+}
+
+.main aside .widget img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+/*FOOTER=======*/
+footer{
+	clear: both;
+	background: #311C1F;
+}
+
+footer .wrap p{
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+	padding: 30px 0;
+}
+
+
+.movervideo{
+	text-align: center;
+	
+}
+
+.juntos{
+	display: flex;
+	justify-content: center;
+}
+
+.lima1{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(lima1.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+/*darle bordes y otras fotos segun la región*/
+.lima2{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(lima2.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+.ica3{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(ica3.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+.puno4{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(puno4.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+.cuzco5{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(cuzco5.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+.cuzco6{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(cuzco6.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+.cuzco7{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(cuzco7.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+
+
+.lima8{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(lima8.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+.lima9{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(lima9.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+.lima10{
+	margin: 20px;
+	padding: 20px;
+	background: olive;
+    height: 2500px;
+    width: 100%;
+    background: url(lima10.jpg) 100%;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+   	background-position: bottom;
+    background-size: cover;
+    background-attachment:fixed;
+    border-style: ridge;
+}
+
+
+
